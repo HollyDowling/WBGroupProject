@@ -1,0 +1,136 @@
+body{
+  background-image: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* Page Layout */
+.Header{
+  background-color: #E4DCCF;
+}
+.navbar{
+  background-color: #7D9D9C;
+  font-family: 'Chonburi', cursive;
+}
+.middle{
+  background-color: #F0EBE3;
+}
+.middleRight{
+  float: right;
+  text-align: right;
+}
+.middleLeft{
+  float: left;
+  text-align: left;
+}
+.footer{
+  background-color: #576F72;
+  text-align: center;
+}
+/* Google fonts and text inputs */
+h1{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+h2{
+  text-align: center;
+  font-family: 'Chonburi', cursive;
+  font-family: 'Kanit', sans-serif;
+}
+p{
+  /* font-family: 'Cinzel', serif; */
+  font-family: 'Kanit', sans-serif;
+  color: bold black;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* Further style for table/nav/images/form */
+#navBarList{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #FBF8F1;
+}
+/* Form styling */
+.formContent{
+  text-align: left;
+}
+
+
+/* Missing information on form */
+#fnMissing, #surMissing, #emailMissing,
+#contactNoMissing, #address1Missing, #address2Missing,
+#eircodeMissing {
+    color: red;
+    visibility: hidden;
+}
+#contactNoShort, #contactNoLong, #invalidEmail,#validEmail{
+  color: blue;
+  visibility: hidden
+}
+/*  */
+#contactTable, th, td{
+  padding: 20px;
+  margin:auto;
+  float: center;
+  text-align: center;
+}
+/*  */
+#Coordinates, #CoorName {
+text-align: center;
+}
+
+/* to remove the bullet points from the Unordered List */
+#noBulletPoints{
+  list-style-type: none;
+}
+#sideImage {
+  width: 500px;
+  height: 100%;
+
+}
+/* Given the Local spots smaller images sizing */
+.LocationImages{
+  height: 150px;
+  weight: 150px;
+}
+/* Size the images are to hover out too */
+.LocationImages:hover{
+  transform: scale(2.0);
+}
+
+/* -Local Spot - */
+/* #paraImage3{
+  height: 150px;
+  weight: 150px;
+} */
+/* On screens that are 992px or less, set the background color to orange */
+/* @media screen and (min-width: 992px) {
+  #sidebar {
+          background-color: yellow;
+	/* change the background colour */
+  }
+  img.sml{
+	/* change the height and width */
+  }
+  img.med{
+	/* change the height and width */
+  }
+
+} */
+/*
+/* On screens that are 600px or less, set the background color to blue */
+@media screen and (max-width: 600px) {
+  .header navbar footer {
+          background-color: blue;
+   /* change the background colour */
+  }
+  img.sml{
+	/* change the height and width */
+  }
+  img.med{
+	/* change the height and width */
+  }
+} */

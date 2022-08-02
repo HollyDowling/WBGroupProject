@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <!-- Get bootstrap to work-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"rel="stylesheet">
+      <scriptsrc="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- goole font links -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Chonburi&family=Cinzel&family=Kanit:wght@300&family=Lobster&display=swap" rel="stylesheet">
+      <!-- Css Style Sheet-->
+      <link rel="stylesheet" href="css/style.css">
+
+      <title>Local Spots</title>
+
+     </head>
+   <body>
+        <div class="container-fluid">
+            <!--header -->
+            <!-- row 1 -->
+            <div class="row">
+              <!-- columne size -->
+                  <div class="col-sm-12 Header">
+                      <h1> Walnut Bay</h1>  <!--Name of Location-->
+                      <h2>Local Spots</h2> <!--Page Name -->
+                      <h1>Good for the Soul</h1> <!--Tagline for location-->
+                  </div>
+
+                  <div class= "col-sm-12 Header">
+                    <!--nav-->
+
+                      <nav class="navbar">
+                        <!-- unorder list for nav bar -->
+                      <ul id="navBarList">
+                        <a href="#" class="btn btn-Home" role="button"> Home</a>
+                        <a href="#" class="btn btn-Notice" role="button"> Notice Board</a>
+                        <a href="#" class="btn btn-Sport" role="button"> Sport Events</a>
+                        <a href="ContactPage.html" class="btn btn-Contact" role="button"> Contact</a>
+
+                      </ul>
+                      </nav>
+                  </div>
+            </div> <!-- Row close-->
+          <!--3 col row-->
+            <div class="row">
+                  <div class="col-sm-2 middleLeft">
+                  <!-- //  <img src="images/dunedin.jpg" class="rounded float-left" alt="..."> -->
+
+                  </div>
+                  <div class="col-sm-8 middle">
+                    <p><br>
+                       This page introduces you to the local area of Walnut Bay from the sea front to area around <br>
+                       We hope this intrigues your interest and puts Walnut Bay on your next travel location <br>
+                       Or if you are a local find a hidden surprise even you werent aware of is in your area. <br>
+                       <br>
+                       Our images come from our visiters, and we update them weekly, if you wish to submit check out our contact page.
+                    </p>
+                    <br>
+                    <br>
+                    <div id="paraImage1">
+                      <img   onclick="imageText1()" class="image1"  src="images/killineyHill/khWitcheshat.png" alt="khWitcheshat">
+                         <!-- ref infor- https://www.dlrcoco.ie/en/parks-outdoors/parks/killiney-hill-park  -->
+
+                    </div>
+                      <p> Located on Dog’s Hill, both look over the bay and surrounding area.<br>
+                        The Hill is a public park, with many trails through the forest and walkways to reach the top.<br>
+                        And, given its name your sure to meet a lot of dogs, please note there is no leash rule in acted.<br>
+                        It is wheelchair  accessible from the right hand side of the hill from Oakfield Road entrance.
+                      </p>
+                      <img class="LocationImages" src="images/killineyHill/khtrees.png" alt="">
+                      <img class="LocationImages" src="images/killineyHill/khtrees2.png" alt="">
+                      <img class="LocationImages" src="images/killineyHill/khViews.png" alt="">
+                      <img class="LocationImages" src="images/killineyHill/khBench.png" alt="">
+                      <!-- Images owned by Holly Dowling - stud no. 21150117 -->
+
+                    <div id="paraImage2">
+                      <img onclick="imageText2()" id="image2" src="images/tip/lismoreCastle.png" alt="lismoreCastle">
+                         <!-- ref infor- https://www.dlrcoco.ie/en/parks-outdoors/parks/killiney-hill-park  -->
+                    </div>
+                      <p> This stands the test of time</p>
+                      <img class="LocationImages" src="images/Tip/CahairCastle.png" alt="">
+                      <img class="LocationImages" src="images/Tip/theAbbey.png" alt="">
+                      <img class="LocationImages" src="images/Tip/RockofCashal.png" alt="">
+                      <img class="LocationImages" src="images/Tip/swissCottage.png" alt="">
+                      <!-- Images owned by Holly Dowling - stud no. 21150117 -->
+                      <br>
+                    <!-- </div> -->
+                  <div id=paraImage3>
+                    <img onclick="imageText3()" id="image3"src="images/seaPoint/seaPoint5.png" alt="seaPoint5">
+                  </div>
+                        <p>Local beach</p>
+                        <img class="LocationImages" src="images/seaPoint/seaPoint.jpg" alt="">
+                        <img class="LocationImages" src="images/seaPoint/seaPoint1.jpg" alt="">
+                        <img class="LocationImages" src="images/seaPoint/seaPoint3.jpg" alt="">
+                        <img class="LocationImages" src="images/seaPoint/seaPoint6.jpg" alt="">
+                        <br>
+                  <!-- </div> -->
+                  <div id=paraImage4>
+                      <img onclick="imageText4()" id="image4"src="images/foodMarket/foodMarket.png" alt="foodMarket">
+                  </div>
+                        <p>Local beach</p>
+                        <img class="LocationImages" src="images/foodMarket/foodMarket2.jpg" alt="">
+                        <img class="LocationImages" src="images/foodMarket/foodMarket3.jpg" alt="">
+                        <img class="LocationImages" src="images/foodMarket/foodMarket4.jpg" alt="">
+                        <img class="LocationImages" src="images/foodMarket/foodMarket5.jpg" alt="">
+                        <br>
+                  <!-- </div>     -->
+                  <div id=paraImage5>
+                      <img onclick="imageText5()" id="image5"src="images/town/town.png" alt="town">
+                  </div>
+                        <p>main town</p>
+                        <img class="LocationImages" src="images/town/town2.jpg" alt="">
+                        <img class="LocationImages" src="images/town/town3.jpg" alt="">
+                        <img class="LocationImages" src="images/town/town4.jpg" alt="">
+                        <img class="LocationImages" src="images/town/town5.jpg" alt="">
+                        <img class="LocationImages" src="images/town/town6.jpg" alt="">
+
+
+                        <!-- Middle column closed -->
+                  </div>
+
+                  <div class="col-sm-5 middleRight">
+                    <!-- <img src="images/dunedin.jpg" class="rounded float-right" alt="..."> -->
+
+                  </div>
+            </div>
+            <div class="row">
+                  <div class="col-sm-12 footer">
+                    <ul id="noBulletPoints">
+                      <li>Walnut Bay County Council</li>
+                      <li>53.2944° N, 6.1339° W </li>
+                      <li>Registered Website</li>
+                    </ul>
+                  </div>
+            </div>
+
+        </div>
+        <!-- javascript -->
+        <script type="text/javascript">
+
+            function imageText1(){
+              var changeImage = document.getElementById("paraImage1"); // Identifying variable  by its id
+              var titleImage1 = "<h3>The Witches Hat, </h3)" // creating variable for header
+              var infoText = "<p> on Dog's Hill </p>" // creating variable for paragraph
+              changeImage.innerHTML = titleImage1 + infoText; //
+            }
+            //
+
+            function imageText2(){
+              var changeImage = document.getElementById("paraImage2"); // Identifying variable  by its id
+              var titleImage2 = "<h3>Walnut Bay Caslte</h3)" // creating variable for header
+              var infoText = "<p> Pleasent well kept gardens, a true secret of the bay </p>" // creating variable for paragraph
+              changeImage.innerHTML = titleImage2 + infoText; //
+            }
+
+            function imageText3(){
+              var changeImage = document.getElementById("paraImage3"); // Identifying variable  by its id
+              var titleImage3 = "<h3>Walnut Bay beach</h3)" // creating variable for header
+              var infoText = "<p> A busy beach with daily swimmers and other water spots </p>" // creating variable for paragraph
+              changeImage.innerHTML = titleImage3 + infoText; //
+            }
+
+            function imageText4(){
+              var changeImage = document.getElementById("paraImage4"); // Identifying variable  by its id
+              var titleImage4 = "<h3>Food Market</h3)" // creating variable for header
+              var infoText = "<p> weekend event </p>" // creating variable for paragraph
+              changeImage.innerHTML = titleImage4 + infoText; //
+            }
+            function imageText5(){
+              var changeImage = document.getElementById("paraImage5"); // Identifying variable  by its id
+              var titleImage5 = "<h3>Around the Twon</h3)" // creating variable for header
+              var infoText = "<p> from the main street to back lanes </p>" // creating variable for paragraph
+              changeImage.innerHTML = titleImage5 + infoText; //
+            }
+
+
+            // background image to fill in the sides
+            document.body.style.backgroundImage = "url('images/town/dlHarbour1.jpg')";
+        </script>
+   </body>
+</html>
