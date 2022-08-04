@@ -13,9 +13,12 @@
 
 		<!-- link to the CSS file and Google fonts -->
 		<link href="css/style.css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Chonburi&family=Cinzel&family=Lobster&display=swap" rel="stylesheet">
 
-		<!-- link to the Javascript -->
-		<script src="js/myscript.js"></script>
+		<!-- link to the Javascript
+		<script src="js/myscript.js"></script> -->
 
 	</head>
 	<body>
@@ -28,7 +31,7 @@
 			</div>
 
 			<!-- nav -->
-			<div id="nav">
+			<div id="navbar">
 				<div class="col-sm-12">
 					<a href="#home">Home</a>
 					<a href="#local scenary">Local Scenary</a>
@@ -39,15 +42,16 @@
 				</div>
 			</div>
 
-			<div class="rowMiddle">
+			<div class="center-content">
 				<!-- image left side -->
-					<div class="col-sm-3">
-						 <img id="imgLeft" class="leftSideOfImage" src="images/imgLeft.jpg"> 
+				<div class="row">
+					<div class="col-sm-2 center-img">
+						 <img src="images/imgLeft.jpg" class=" img-fluid" alt=""/>
 					</div>
+
 				<!-- Center content -->
-				<div id="middle">
-					<div class="col-sm-6">
-						<p>This is just a testerThis is just a tester<br>
+					<div class="col-sm-8">
+						<p class="text-center">This is just a testerThis is just a tester<br>
 							This is just a testThis is just a tester<br>
 							This is just a testerThis is just a tester<br>
 							This is just a testerThis is just a tester<br>
@@ -58,19 +62,66 @@
 							This is just a testerThis is just a tester<br>
 							This is just a testerThis is just a tester<br>
 							This is just a testerThis is just a tester<br>
+							This is just a testThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br>
+							This is just a testerThis is just a tester<br></p>
+					</div>
+
+				<!-- image right side -->
+					<div class="col-sm-2 center-img">
+						<img src="images/imgRight.jpg" class=" img-fluid" alt=""/>
 					</div>
 				</div>
-				<!-- image right side -->
-					<div class="col-sm-3">
-						<img id="imgRight" class="RightSideOfImage" src="images/imgRight.jpg">
-					</div>
 			</div>
 
-			<div class="footer">
+			<!-- Footer -->
+			 <div class="footer">
 				<div class="col-sm-12">
 					<footer>Template</footer>
 				</div>
 			</div>
-		</div>
+
+			<script>
+			window.onscroll = function() {myFunction()};
+
+			var navbar = document.getElementById("navbar");
+
+			var sticky = navbar.offsetTop;
+
+			function myFunction() {
+				if(window.pageYOffset >= sticky){
+					nav.classList.add("sticky")
+				} else{
+					nav.classList.remove("sticky");
+				}
+			}
+			</script>
 	</body>
 </html>
