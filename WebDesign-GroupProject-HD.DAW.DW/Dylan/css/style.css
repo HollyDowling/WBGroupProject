@@ -1,0 +1,75 @@
+h1 {
+    color: black;
+    font-size: 52px;
+    font-family: 'Lobster', cursive;
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+    font-family: 'Chonburi', cursive;
+}
+
+p{
+    color: black;
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+
+}
+
+/* Style for the header */
+.header {
+    text-align: center;
+    padding: 35px;
+    background: #F0EBE3;
+}
+
+/* Style for the nav bar */
+#navbar {
+    padding: 30px;
+    overflow: hidden;
+    background-color: #E4DCCF;
+}
+/* Style for the nav bar links */
+#navbar a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    position: sticky;
+    top: 0px;
+}
+
+.content{
+    padding: 16px;
+}
+
+/* Sticky */
+.Sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.Sticky + .content {
+    padding-top: 60px;
+}
+
+/* split the image this is the left side */ /*Photo by <a href="https://unsplash.com/@timstief?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tim Stief</a> on <a href="https://unsplash.com/s/photos/mountain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+.row {
+    background-color: #576F72;
+    color: black;
+}
+
+.center-content img{
+    height: 100%;
+}
+
+.footer {
+    background-color: #E4DCCF;
+    text-align: center;
+}
